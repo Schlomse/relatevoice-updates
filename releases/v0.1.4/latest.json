@@ -1,0 +1,19 @@
+{
+  "version": "0.1.4",
+  "notes": "Dashboard redesign, light mode fixes, improved hotkey settings, and tray menu cleanup.",
+  "pub_date": "2026-07-04T22:35:00.000Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "",
+      "url": "https://raw.githubusercontent.com/Schlomse/relatevoice-updates/main/releases/v0.1.4/RelateVoice_0.1.4_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "",
+      "url": "https://raw.githubusercontent.com/Schlomse/relatevoice-updates/main/releases/v0.1.4/RelateVoice_0.1.4_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "",
+      "url": "https://raw.githubusercontent.com/Schlomse/relatevoice-updates/main/releases/v0.1.4/RelateVoice_0.1.4_x64_en-US.msi"
+    }
+  }
+}
