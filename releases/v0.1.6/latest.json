@@ -1,0 +1,19 @@
+{
+  "version": "0.1.6",
+  "notes": "## v0.1.6 — Branding and polish\n\n**Changed**\n- New RelateVoice logo and app icon\n- Sidebar shows the app version instead of Dictation\n\n**Fixed**\n- Auto-update modal formats release notes with readable sections",
+  "pub_date": "2026-07-05T12:15:38.341Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReURLUGIyN09KVG9YYnVCMU1saWw3b3ozNTdHeFpnbW0zb3p3U0Y1ZTIzVGpmMjNRSEF3a2FUZ0hDQWRhanh1V2lQL3lLV1pmNHQwaTgvZ2JvajB4SnBWc0x5N3VMZGdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMjUzNzMyCWZpbGU6UmVsYXRlVm9pY2VfMC4xLjZfeDY0LXNldHVwLmV4ZQpyTURlN2RJT1E2NDhHWnJveS9MK002MUZla2ZFNUxLdDJ5N256OVJTLzI2TUI4eERaSVpneGFLUWVBRnhYWW5pQWQzQ1dJS09iSXJQUXo3VmRrYmFBdz09Cg==",
+      "url": "https://raw.githubusercontent.com/Schlomse/relatevoice-updates/main/releases/v0.1.6/RelateVoice_0.1.6_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReURLUGIyN09KVG9YYnVCMU1saWw3b3ozNTdHeFpnbW0zb3p3U0Y1ZTIzVGpmMjNRSEF3a2FUZ0hDQWRhanh1V2lQL3lLV1pmNHQwaTgvZ2JvajB4SnBWc0x5N3VMZGdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMjUzNzMyCWZpbGU6UmVsYXRlVm9pY2VfMC4xLjZfeDY0LXNldHVwLmV4ZQpyTURlN2RJT1E2NDhHWnJveS9MK002MUZla2ZFNUxLdDJ5N256OVJTLzI2TUI4eERaSVpneGFLUWVBRnhYWW5pQWQzQ1dJS09iSXJQUXo3VmRrYmFBdz09Cg==",
+      "url": "https://raw.githubusercontent.com/Schlomse/relatevoice-updates/main/releases/v0.1.6/RelateVoice_0.1.6_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReURLUGIyN09KVG1wWUdjQ3FXSk9pK1RCQ3dtWXJ4WFo0MW5jL1psSzRlWEZidFd0c1FXc0g5Zzh4OWk2ZHFOL29WVXZPai9jU1h4S2F5K013MUhyK0dCbnlVb3hKUXdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMjUzNzMyCWZpbGU6UmVsYXRlVm9pY2VfMC4xLjZfeDY0X2VuLVVTLm1zaQp3NHJsYVhnYm1lOHNFZTE1RlZjNlErSzN0RHVxdGhKM2Z5RlJSdVI2K09BUnhtdVZpV1JMOFAzY1FuQXZ6RG5zdndQalpZQlBtUnZsUjRCdjdzQ0ZEZz09Cg==",
+      "url": "https://raw.githubusercontent.com/Schlomse/relatevoice-updates/main/releases/v0.1.6/RelateVoice_0.1.6_x64_en-US.msi"
+    }
+  }
+}
