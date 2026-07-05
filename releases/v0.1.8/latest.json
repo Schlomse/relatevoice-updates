@@ -1,0 +1,19 @@
+{
+  "version": "0.1.8",
+  "notes": "## v0.1.8 — Cloud setup & local tuning\n\n**New**\n- \"Get API key\" links for each cloud provider — opens the provider dashboard in your browser\n\n**Changed**\n- CPU-aware Whisper thread scaling — quality tiers now adapt to your processor\n- Local model presets — switching to local models applies benchmark-tuned quality and speed defaults\n- Default transcription quality is now Balanced for new installs\n- Windows installer icon stays in sync when branding assets change",
+  "pub_date": "2026-07-05T21:12:03.540Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReURLUGIyN09KVHM3SXhrZ1VqOU5hdThKME1JdnlQWjVlSG9GUUR4UitaWXBWOHFyNCtEQ1p1QnBYWXdQN0JTRHJGQm82VE5ma0k0V2RFWWltU2ltOTczcFNtdmVUR1FNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMjg1OTE5CWZpbGU6UmVsYXRlVm9pY2VfMC4xLjhfeDY0LXNldHVwLmV4ZQp2OWJjMUMydzV0VGc1OXNEdGVGcGxWbG8wbXVISHFBWmVkVUdyTHgrSnlrVGVsMFcyTDFXR1FFcWlnWWdDZHRVYnJjQ0lET2FEMHVCSmZBZ09hWmZBZz09Cg==",
+      "url": "https://raw.githubusercontent.com/Schlomse/relatevoice-updates/main/releases/v0.1.8/RelateVoice_0.1.8_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReURLUGIyN09KVHM3SXhrZ1VqOU5hdThKME1JdnlQWjVlSG9GUUR4UitaWXBWOHFyNCtEQ1p1QnBYWXdQN0JTRHJGQm82VE5ma0k0V2RFWWltU2ltOTczcFNtdmVUR1FNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMjg1OTE5CWZpbGU6UmVsYXRlVm9pY2VfMC4xLjhfeDY0LXNldHVwLmV4ZQp2OWJjMUMydzV0VGc1OXNEdGVGcGxWbG8wbXVISHFBWmVkVUdyTHgrSnlrVGVsMFcyTDFXR1FFcWlnWWdDZHRVYnJjQ0lET2FEMHVCSmZBZ09hWmZBZz09Cg==",
+      "url": "https://raw.githubusercontent.com/Schlomse/relatevoice-updates/main/releases/v0.1.8/RelateVoice_0.1.8_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReURLUGIyN09KVGh2ZTlDTDV5bUhkZ0ovOHNYQ2tuaFNVWEozQ05RMm1PV0dLYUtJdHhLL212bk12RjFTMTJudkRPS2VqcWI1NFJqd0Y1ZlJJdXZ0VzdjZGhVcHNLQkFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMjg1OTE5CWZpbGU6UmVsYXRlVm9pY2VfMC4xLjhfeDY0X2VuLVVTLm1zaQpSTFZ0Q0hzOUtsVnRRcmhaWm1lbmRqQlMvWXJhdmZRZDA0T3VZVXR4ZkpWbFJDQ0ZJTEFpcmRtQXFxeFdnNGE4STh5cnRodzZhd2VPL0h4dko4Z0RBZz09Cg==",
+      "url": "https://raw.githubusercontent.com/Schlomse/relatevoice-updates/main/releases/v0.1.8/RelateVoice_0.1.8_x64_en-US.msi"
+    }
+  }
+}
