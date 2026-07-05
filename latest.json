@@ -1,19 +1,19 @@
 {
-  "version": "0.1.6",
-  "notes": "## v0.1.6 — Branding and polish\n\n**Changed**\n- New RelateVoice logo and app icon\n- Sidebar shows the app version instead of Dictation\n\n**Fixed**\n- Auto-update modal formats release notes with readable sections",
-  "pub_date": "2026-07-05T12:15:38.341Z",
+  "version": "0.1.7",
+  "notes": "## v0.1.7 — AI & speech processing\n\n**New**\n- Bilingual mode — seamless two-language dictation with auto-detect between your language pair\n- LLM post-processing via a local llama.cpp server (Rewrite, Formal, Summarize, Grammar)\n- Intelligent voice commands — new paragraph, delete last sentence, all caps, send message, and more\n- LLM connection test button in Transcription settings\n\n**Changed**\n- Check for updates button moved to the right in System settings\n- Voice commands disabled by default for safer out-of-the-box dictation\n- LLM post-processing falls back faster when the local server is offline\n\n**Fixed**\n- Voice commands no longer misinterpret \"Punkt\" and \"Komma\" inside normal German sentences\n- One-time migration disables previously auto-enabled voice commands that broke dictation\n- LLM post-processing section now appears in Transcription settings",
+  "pub_date": "2026-07-05T15:05:32.289Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReURLUGIyN09KVG9YYnVCMU1saWw3b3ozNTdHeFpnbW0zb3p3U0Y1ZTIzVGpmMjNRSEF3a2FUZ0hDQWRhanh1V2lQL3lLV1pmNHQwaTgvZ2JvajB4SnBWc0x5N3VMZGdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMjUzNzMyCWZpbGU6UmVsYXRlVm9pY2VfMC4xLjZfeDY0LXNldHVwLmV4ZQpyTURlN2RJT1E2NDhHWnJveS9MK002MUZla2ZFNUxLdDJ5N256OVJTLzI2TUI4eERaSVpneGFLUWVBRnhYWW5pQWQzQ1dJS09iSXJQUXo3VmRrYmFBdz09Cg==",
-      "url": "https://raw.githubusercontent.com/Schlomse/relatevoice-updates/main/releases/v0.1.6/RelateVoice_0.1.6_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReURLUGIyN09KVGt4RlBGd3BCaFM0MmhpUjNUZkVpZ3N4bGd1N2RzMHNaMGZZcEQ4KzRQT051ZUgrY1JvQnQxallMMGRldVVycUFFTWpZVHc2Y2pVdjQrVFN5STgxNGdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMjYzOTI3CWZpbGU6UmVsYXRlVm9pY2VfMC4xLjdfeDY0LXNldHVwLmV4ZQpESlNCNHNldU9NTWkyZ0FGVWVnRmY4WUN6NVpBNTNETENiSDZka2l1SzV4ZkJGRHRDOWVybSs1WldOYm03eDNVZnpxcDY0QTVaNjBBYlAxMjdWaytDdz09Cg==",
+      "url": "https://raw.githubusercontent.com/Schlomse/relatevoice-updates/main/releases/v0.1.7/RelateVoice_0.1.7_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReURLUGIyN09KVG9YYnVCMU1saWw3b3ozNTdHeFpnbW0zb3p3U0Y1ZTIzVGpmMjNRSEF3a2FUZ0hDQWRhanh1V2lQL3lLV1pmNHQwaTgvZ2JvajB4SnBWc0x5N3VMZGdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMjUzNzMyCWZpbGU6UmVsYXRlVm9pY2VfMC4xLjZfeDY0LXNldHVwLmV4ZQpyTURlN2RJT1E2NDhHWnJveS9MK002MUZla2ZFNUxLdDJ5N256OVJTLzI2TUI4eERaSVpneGFLUWVBRnhYWW5pQWQzQ1dJS09iSXJQUXo3VmRrYmFBdz09Cg==",
-      "url": "https://raw.githubusercontent.com/Schlomse/relatevoice-updates/main/releases/v0.1.6/RelateVoice_0.1.6_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReURLUGIyN09KVGt4RlBGd3BCaFM0MmhpUjNUZkVpZ3N4bGd1N2RzMHNaMGZZcEQ4KzRQT051ZUgrY1JvQnQxallMMGRldVVycUFFTWpZVHc2Y2pVdjQrVFN5STgxNGdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMjYzOTI3CWZpbGU6UmVsYXRlVm9pY2VfMC4xLjdfeDY0LXNldHVwLmV4ZQpESlNCNHNldU9NTWkyZ0FGVWVnRmY4WUN6NVpBNTNETENiSDZka2l1SzV4ZkJGRHRDOWVybSs1WldOYm03eDNVZnpxcDY0QTVaNjBBYlAxMjdWaytDdz09Cg==",
+      "url": "https://raw.githubusercontent.com/Schlomse/relatevoice-updates/main/releases/v0.1.7/RelateVoice_0.1.7_x64-setup.exe"
     },
     "windows-x86_64-msi": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReURLUGIyN09KVG1wWUdjQ3FXSk9pK1RCQ3dtWXJ4WFo0MW5jL1psSzRlWEZidFd0c1FXc0g5Zzh4OWk2ZHFOL29WVXZPai9jU1h4S2F5K013MUhyK0dCbnlVb3hKUXdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMjUzNzMyCWZpbGU6UmVsYXRlVm9pY2VfMC4xLjZfeDY0X2VuLVVTLm1zaQp3NHJsYVhnYm1lOHNFZTE1RlZjNlErSzN0RHVxdGhKM2Z5RlJSdVI2K09BUnhtdVZpV1JMOFAzY1FuQXZ6RG5zdndQalpZQlBtUnZsUjRCdjdzQ0ZEZz09Cg==",
-      "url": "https://raw.githubusercontent.com/Schlomse/relatevoice-updates/main/releases/v0.1.6/RelateVoice_0.1.6_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReURLUGIyN09KVGlnYU1yQlR6a1NPc2ROWVFkWW5HS0paQy9tYjNDWXZGRzVDRmE2MXBSSUI1cURVVEdPTnZnMnNkMThOay9INW5PajJ1TXU0UHJCdEd6eVREMVAra3drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMjYzOTI3CWZpbGU6UmVsYXRlVm9pY2VfMC4xLjdfeDY0X2VuLVVTLm1zaQoramZZYncyRVh5UEUwcnBMSkduOHRsTHg1OFVCOHAyK0pwZFZzY2JpVzh2SkJjalI3YUVML004V1FaN3lEV2dZWVlKZVgrcENmWWhCb1Y3N2JEcDFCdz09Cg==",
+      "url": "https://raw.githubusercontent.com/Schlomse/relatevoice-updates/main/releases/v0.1.7/RelateVoice_0.1.7_x64_en-US.msi"
     }
   }
 }
