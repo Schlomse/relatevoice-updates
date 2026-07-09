@@ -1,19 +1,19 @@
 {
-  "version": "0.1.10",
-  "notes": "## v0.1.9 — Unified settings & widget polish\n\n**New**\n- Single-page settings with all sections on one scrollable page\n- Collapsible sidebar with title bar toggle; preference is remembered\n- Custom title bar with minimize, maximize, and close controls\n- Collapsible speech model sections for local and cloud engines\n\n**Changed**\n- Settings reorganized into Getting started, Speech models, Transcription, Output, and System\n- Speaking widget with press-and-hold scale feedback and hover outline\n- Lightweight HUD event hook for faster overlay startup\n\n**Fixed**\n- Speaking widget press and drag visuals behave correctly on Windows\n- HUD position saves no longer trigger full settings reloads\n- Event listener leaks across HUD drag and model downloads\n\n**Removed**\n- LLM post-processing via local llama.cpp server",
-  "pub_date": "2026-07-07T14:57:03.948Z",
+  "version": "0.1.11",
+  "notes": "## v0.1.11 â€” Color themes & updater reliability\n\n**New**\n- IDE-style color themes â€” Dracula, Catppuccin, Nord, One Dark, Tokyo Night, GitHub, Gruvbox, Monokai, Solarized, and more\n- Dedicated Appearance settings section with live theme preview swatches\n- Shared theme tokens power panels, text, accents, and controls across the entire interface\n\n**Changed**\n- Theme picker moved from System to the new Appearance section\n- Launch at startup is enabled by default for new installs\n- Sound feedback uses softer sweep chimes instead of plain sine tones\n- Push-to-talk release detection is more responsive with faster key polling\n- Update checks read the release feed directly so prompts still appear when the built-in updater plugin cannot parse latest.json\n- Legacy dark/light/system theme preferences migrate automatically to the new theme IDs\n\n**Fixed**\n- Hotkey capture restores global shortcuts reliably after cancel or reassignment\n- Update prompts appear even when the Tauri updater plugin fails but the feed is reachable\n- Settings and other loading states use a consistent compact loading indicator",
+  "pub_date": "2026-07-09T12:21:59.715Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReURLUGIyN09KVGtUOUVqN3VQVlJwYmlsMzJUV25SNnpPcExIMHdWaUNNbENGUFBVNEhyZG5maUpmdmtML09ISmE3OTQ3UFZtRjY5bVgzdTdBT1RjQlQ0dW9ZVUVuNHdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNDM2MjE3CWZpbGU6UmVsYXRlVm9pY2VfMC4xLjEwX3g2NC1zZXR1cC5leGUKcXV1N2JUUzh3Q2QwN3I4akZYcm5JVjhuNy96bStNdWptOVhWTnN0THBWUWxCNDR0cUs2anloZittR2RQWUFra3ZET1ZIMUc1VFY0bGlyOTBtMjdhRFE9PQo=",
-      "url": "https://raw.githubusercontent.com/Schlomse/relatevoice-updates/main/releases/v0.1.10/RelateVoice_0.1.10_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReURLUGIyN09KVHBYZldyVUlnN3Q1S3JiRlU4VE50MFkxNmM0VU04SFhEWFI4R3pYNWdvM0VuOEtmK253OXBXcEEyc1hrbGNkcE1lazE1ejVWSnp4SlhrU215UThHQ1FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNTk5NzEzCWZpbGU6UmVsYXRlVm9pY2VfMC4xLjExX3g2NC1zZXR1cC5leGUKUVRvUGxZWkVSdDd3emhhNXJpSGlPd0tUUUZtTXFHbDRiYXVXRHFTZURuQm5XclRjOEVLWTA2RHcxZERaSnZneVlWZFFQZHFzY1pvYXdxSi90QTBKQ2c9PQo=",
+      "url": "https://raw.githubusercontent.com/Schlomse/relatevoice-updates/main/releases/v0.1.11/RelateVoice_0.1.11_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReURLUGIyN09KVGtUOUVqN3VQVlJwYmlsMzJUV25SNnpPcExIMHdWaUNNbENGUFBVNEhyZG5maUpmdmtML09ISmE3OTQ3UFZtRjY5bVgzdTdBT1RjQlQ0dW9ZVUVuNHdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNDM2MjE3CWZpbGU6UmVsYXRlVm9pY2VfMC4xLjEwX3g2NC1zZXR1cC5leGUKcXV1N2JUUzh3Q2QwN3I4akZYcm5JVjhuNy96bStNdWptOVhWTnN0THBWUWxCNDR0cUs2anloZittR2RQWUFra3ZET1ZIMUc1VFY0bGlyOTBtMjdhRFE9PQo=",
-      "url": "https://raw.githubusercontent.com/Schlomse/relatevoice-updates/main/releases/v0.1.10/RelateVoice_0.1.10_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReURLUGIyN09KVHBYZldyVUlnN3Q1S3JiRlU4VE50MFkxNmM0VU04SFhEWFI4R3pYNWdvM0VuOEtmK253OXBXcEEyc1hrbGNkcE1lazE1ejVWSnp4SlhrU215UThHQ1FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNTk5NzEzCWZpbGU6UmVsYXRlVm9pY2VfMC4xLjExX3g2NC1zZXR1cC5leGUKUVRvUGxZWkVSdDd3emhhNXJpSGlPd0tUUUZtTXFHbDRiYXVXRHFTZURuQm5XclRjOEVLWTA2RHcxZERaSnZneVlWZFFQZHFzY1pvYXdxSi90QTBKQ2c9PQo=",
+      "url": "https://raw.githubusercontent.com/Schlomse/relatevoice-updates/main/releases/v0.1.11/RelateVoice_0.1.11_x64-setup.exe"
     },
     "windows-x86_64-msi": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReURLUGIyN09KVG5aSWtlQVZheTV2NTNjZ1I4b1FPY1lKTWxGSHcreTkwSFd4cVJPMHlDVTJkeDJNQ1pyNnYrangrZHMweHhTZitab2UvWDNVRW9wQ0I2cGgzRnJRTFFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNDM2MjE3CWZpbGU6UmVsYXRlVm9pY2VfMC4xLjEwX3g2NF9lbi1VUy5tc2kKRVN4eHdvZXJBWWRHVWdoS1lscW5yU0tMTmdQQkVEUll0SzdtdHlhc0VXaUpLcC9hb1hmSG1mdzIxb1ArbWQ2c3V3MmRJRm1md3Bwdm1pdU91c1A0QWc9PQo=",
-      "url": "https://raw.githubusercontent.com/Schlomse/relatevoice-updates/main/releases/v0.1.10/RelateVoice_0.1.10_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReURLUGIyN09KVGpOS0tFOVlhdS9zcWN5ZDl4N2pqdVBlSFdmclJKYW5xeU5WRDEwazBEZS9vTzBlWWh0cFpXNkVHOWsvU09pdWpsZmFlL3hVdGhDZDBuc0FkM3d4bEFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNTk5NzEzCWZpbGU6UmVsYXRlVm9pY2VfMC4xLjExX3g2NF9lbi1VUy5tc2kKdE1Pa0k5RUU5Q1pTdDd4YnlaaXJPRU52VUtHWm5zbXJ4VE51VC9DUm4zdW51Q094ekI4bGFTUlJMQ2tLS09IS0ZGeVFZdDlwWG1nb3Q1WituS01JQ3c9PQo=",
+      "url": "https://raw.githubusercontent.com/Schlomse/relatevoice-updates/main/releases/v0.1.11/RelateVoice_0.1.11_x64_en-US.msi"
     }
   }
 }
